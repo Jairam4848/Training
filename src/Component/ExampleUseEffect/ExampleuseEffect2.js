@@ -17,7 +17,7 @@ const ExampleuseEffect2 = () => {
             setUser(data)
             setLoading(false)
             setIsError({ status: false, message: '' })
-            if(response.status === 404){
+            if (response.status === 404) {
                 throw new Error("data not found")
             }
         } catch (error) {
@@ -38,13 +38,13 @@ const ExampleuseEffect2 = () => {
         )
     }
 
-    if(isError && isError.status) {              //  (or)  ?if(isError?.status)  (optional shaining)
-       return(
-        <div>
-            <h3 style={{color:'red'}}>{isError && isError.status}</h3>
-        </div>
-       )
-    }              
+    if (isError && isError.status) {              //  (or)  ?if(isError?.status)  (optional shaining)
+        return (
+            <div>
+                <h3 style={{ color: 'red' }}>{isError && isError.status}</h3>
+            </div>
+        )
+    }
 
     return (
         <div>
