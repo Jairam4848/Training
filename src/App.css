@@ -1,3 +1,25 @@
 body{
   text-align: center;
 }
+
+.read-more {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.read-more-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.read-more-btn:hover {
+  background-color: #3e8e41;
+}
+

@@ -1,11 +1,12 @@
 import React from 'react'
-import ExampleuseEffect2 from './Component/ExampleUseEffect/ExampleuseEffect2'
+import ExampleuseMemo from './Component/ExampleuseMemo/ExampleuseMemo'
+import UserContextProvider from './Component/useContext/ExampleuseContext2'
 
 const App = () => {
   return (
     <div>
       <center>
-        <ExampleuseEffect2/>
+        <ExampleuseMemo/>
       </center>
     </div>
   )
