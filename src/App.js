@@ -1,12 +1,10 @@
 import React from 'react'
-import ExampleuseMemo from './Component/ExampleuseMemo/ExampleuseMemo'
-import UserContextProvider from './Component/useContext/ExampleuseContext2'
+import ExampleuseRef from './Component/useRef/ExampleuseRef'
 
 const App = () => {
   return (
     <div>
       <center>
-        <ExampleuseMemo/>
       </center>
     </div>
   )
