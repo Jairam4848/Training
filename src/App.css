@@ -2,6 +2,9 @@ body {
   text-align: center;
 }
 
+.read-more-btn:hover {
+  background-color: #3e8e41;
+}
 .cocktail-data {
   display: grid;
   grid-template-columns: 1fr;
@@ -23,4 +26,24 @@ body {
     gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px;
+}
+
+.card {
+  width: 250px;
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px greenyellow;
+}
+
+.card img {
+  width: 100px;
+  height: 250px;
 }

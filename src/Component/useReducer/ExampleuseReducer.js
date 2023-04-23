@@ -1,6 +1,7 @@
 import React, { useReducer } from 'react'
 
 const reducer = (state, action) => {
+
   if (action.type === 'DELETE_PERSON') {
     const newPerson = state.data.filter((eachitem) => {
       return eachitem.id !== payload.action
