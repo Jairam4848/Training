@@ -79,7 +79,7 @@ const ExampleuseState1 = () => {
                 <br />
                 {
                     editing.isediting ?
-                        (<button ty pe='submit' onClick={Handlesubmit}>Add</button>)
+                        (<button type='submit' onClick={Handlesubmit}>Add</button>)
                         :
                         (<button type='submit' onClick={EditChanged}>edit</button>)
                 }
